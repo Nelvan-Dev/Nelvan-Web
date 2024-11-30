@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.navbar{
+    margin-bottom: 100px !important; 
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   padding: 15px 15px;
+   gap: 65rem;
+   background: #0000ff80;
+   
+}
+
+.side ul{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.side ul li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.side ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.side ul li a:hover{
+    color: rgb(1, 1, 132);
+
+}
+
+.deskripsi2{
+    margin-left: 10px;
+
+}
+
+.akl{
+    display: flex;
+    gap: 10px;
+}
+
+.akl ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.akl ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.akl ul li a:hover{
+    color: rgb(136, 255, 255);
+}
+
+.pemasaran{
+    display: flex;
+    gap: 10px;
+}
+
+.pemasaran ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.pemasaran ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.pemasaran ul li a:hover{
+    color: rgb(136, 255, 255);
+}
+
+.mpk{
+    display: flex;
+    gap: 10px;
+}
+
+.mpk ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.mpk ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.mpk ul li a:hover{
+    color: rgb(136, 255, 255);
+}
+
+.RPL{
+    display: flex;
+    gap: 10px;
+}
+
+.RPL ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.RPL ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.RPL ul li a:hover{
+    color: rgb(136, 255, 255);
+}
+
+.DKV{
+    display: flex;
+    gap: 10px;
+}
+
+.DKV ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.DKV ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.DKV ul li a:hover{
+    color: rgb(136, 255, 255);
+}
+

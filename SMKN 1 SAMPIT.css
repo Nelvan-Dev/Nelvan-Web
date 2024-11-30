@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(WhatsApp\ Image\ 2024-11-23\ at\ 11.25.48_2c49c96d.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-color: #EEF7FF;
+  
+  
+}
+
+/* ================================================================== Navbar ================================================================== */
+.navbar{
+    position: fixed !important;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   padding: 15px 15px;
+   gap: 50rem;
+   color: aliceblue;
+   background-color:rgba(42, 42, 122, 0.3);
+   height: 70px;
+   z-index: 9999;
+   
+}
+
+.side ul{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.side ul li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.side ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.side ul li a:hover{
+    color: rgb(45, 45, 244);
+
+}
+
+/* ================================================================== Home ================================================================== */
+
+.B{
+    position: relative;
+    top: -200px;
+}
+.content{
+    margin-top: 300px;
+    margin-left: 30px;
+    display: flex;
+    gap: 20rem;
+}
+
+.deskripsi{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400px;
+    font-size: 40px;
+    color: aliceblue;
+    
+}
+
+.Watch{
+    margin-left: 260px;
+    position: relative;
+    top: -220px;
+    padding: 10px;
+    size: 10px;
+}
+
+.Watch ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Watch ul li a{
+    text-decoration: none;
+    color: rgb(47, 47, 247);
+}
+
+.image{
+    margin-top: -160px;
+    overflow: hidden;
+}
+
+/* ================================================================== Program Keahlian ================================================================== */
+
+hr{
+    position: relative;
+    top: 250px;
+}
+.Jurusan{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #EEF7FF;
+    height: 600px;
+    margin-top: 250px;
+}
+
+.content2{
+    margin-left: 50px;
+    position: relative;
+    top: 100px;
+}
+.deskripsi2{
+    margin-left: 10px;
+
+}
+
+span{
+    color: rgb(42, 167, 245);
+}
+
+.akl{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    width: 550px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.3) ;
+    
+}
+
+.akl ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.akl ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: color 1s;
+}
+
+.akl ul li a:hover{
+    color: rgb(42, 167, 245);
+}
+
+.pemasaran{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    width: 550px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.3) ;
+}
+
+.pemasaran ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.pemasaran ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: color 1s;
+}
+
+.pemasaran ul li a:hover{
+    color: rgb(42, 167, 245);
+}
+
+.mpk{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    width: 550px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.3) ;
+}
+
+.mpk ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.mpk ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: color 1s;
+}
+
+.mpk ul li a:hover{
+    color: rgb(42, 167, 245);
+}
+
+.RPL{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    width: 550px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.3) ;
+}
+
+.RPL ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.RPL ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: color 1s;
+}
+
+.RPL ul li a:hover{
+    color: rgb(42, 167, 245);
+}
+
+.DKV{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    width: 550px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.3) ;
+}
+
+.DKV ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.DKV ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: color 1s;
+}
+
+.DKV ul li a:hover{
+    color: rgb(42, 167, 245);
+}
+
+.image2{
+    position: relative;
+    margin-left: 722px;
+    margin-top: -420px;
+}
+
+/*  ================================================================== Album ==================================================================  */
+
+.A{
+    position: relative;
+    top: -10;
+    color: #EEF7FF;
+}
+.album{
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.judul{
+    justify-items: center;
+
+}
+
+.judul-album{
+    color: #133E87;
+    border-bottom: 2px double #133E87;
+    margin-bottom: 20px;
+}
+
+.Box{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    gap: 13rem;
+}
+
+.Box1{
+    padding: 15px;
+    justify-items: center;
+    height: 330px;
+    background-color: white;
+    size: 100px;
+    border: 1px solid #133E87;
+}
+
+.Box2{
+    padding: 15px;
+    justify-items: center;
+    height: 330px;
+    background-color: white;
+    size: 100px;
+    border: 1px solid #133E87;
+}
+
+.Box3{
+    padding: 15px;
+    justify-items: center;
+    height: 330px;
+    background-color: white;
+    size: 100px;
+    border: 1px solid #133E87;
+}
+
+.Box-2{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+}
+
+.Box4{
+    padding: 15px;
+    justify-items: center;
+    height: 330px;
+    background-color: white;
+    size: 100px;
+    border: 1px solid #133E87;
+}
+
+.Box5{
+    padding: 15px;
+    justify-items: center;
+    height: 330px;
+    background-color: white;
+    size: 100px;
+    border: 1px solid #133E87;
+}
+
+.Box6{
+    padding: 15px;
+    justify-items: center;
+    height: 330px;
+    background-color: white;
+    size: 100px;
+    border: 1px solid #133E87;
+}
+
+footer{
+    background-color: #133E87;
+    height: 60px;
+}
+
+.footer-teks{
+    color: #EEF7FF;
+    position: relative;
+    top: 20px;
+    text-decoration: underline rgb(0, 0, 0, 0.3) ;
+
+}
+
