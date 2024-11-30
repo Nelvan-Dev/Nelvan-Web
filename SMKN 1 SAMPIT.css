@@ -379,3 +379,15 @@ footer{
 
 }
 
+@media only screen and (max-width: 768px) {
+    .image{
+        width: 300px;
+    }
+
+    .left{
+        display: none;
+    }
+    
+}
+
+
